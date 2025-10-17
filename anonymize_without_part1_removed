@@ -51,7 +51,7 @@ def normalize_text(text):
 
 # Load keywords from a .txt file
 def load_keywords_from_txt():
-    txt_file_path = r"C:\Users\IoanaMacovei\Documents\NCSC NEW project\Task 3.2\EI Grants Research\sample_keywords.txt"
+    txt_file_path = r"path_to_keywords_file"
     logging.info(f"Loading keywords from: {txt_file_path}")
     try:
         with open(txt_file_path, "r", encoding="utf-8") as f:
